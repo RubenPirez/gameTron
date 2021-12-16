@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="src/css/styles.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="tron.js"></script>
+		<title>TRON</title>
+	</head>
+	<body>
+
+		<div class="container text-center">
+			<img src="src/img/logo.png" alt="" width="600" height="200">
+			<div class="row justify-content-center">
+				<div class="col-md-2">
+					<p> <span>Jugador 1</span></br>w</br>s</br>a</br>d</p>
+				</div>
+				<div class="col-md-2">
+					<p> <span>Controles</span></br>arriba</br>abajo</br>derecha</br>izquierda</p>
+				</div>
+				<div class="col-md-2">
+					<p><span>Jugador 2</span></br>flecha arriba</br>flecha abajo</br>flecha izda</br>flecha dcha</p></p>
+				</div>
+			</div>
+			<canvas id="juego" style="border: 1px solid;"> </canvas>
+			<div class="row justify-content-center">
+				<div class="col-md-3 d-grid" id="boton">
+					<button type="button" class="btn btn-outline-info btn-lg mt-2" onclick="juego.iniciar()">¡COMENZAR!</button>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
